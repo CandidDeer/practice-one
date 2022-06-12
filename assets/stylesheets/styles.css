@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "anders";
+    src: url(../fonts/anders.woff2);
+    src: url(../fonts/anders.woff);
+}
+
+header {
+    background-color: #e1e4dd;
+    padding: 20px 0;
+}
+
+body {
+    font-family: serif;
+    font-size: 16px;
+}
+
+h1 {
+    color: #003b3f;
+    font-family: "anders", serif;
+    font-size: 48px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h2 {
+    background-color: ivory;
+    color: #1a5353;
+    font-family: "anders", serif;
+    font-size: 36px;
+    margin-bottom: 40px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 120%;
+    margin: 0 0 21.6px 0;
+}
+
+footer p {
+    margin: 0 0 0 0;
+}
+
+.mainnav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.mainnav a {
+    border-right: darkseagreen solid 2px;
+    padding: 0 10px;
+}
+
+.mainnav a:last-child {
+    border: none;
+}
+
+#spring {
+    float: left;
+    width: 50%;
+}
+
+.twocolumntext {
+    column-count: 2;
+    column-fill: balance;
+    display: block;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#flower {
+    float: right;
+    width: 50%;
+}
+
+.flowerimg {
+    box-shadow: 5px 5px 10px gray;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.flowercapt {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#frost {
+    clear: both;
+    margin-bottom: 60px;
+    width: 50%;
+}
+
+footer {
+    background-color: #e1e4dd;
+    font-size: 16px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+a:link {
+    color: darkseagreen;
+}
+
+a:hover {
+    color: seagreen;
+}
+
+a:visited {
+    color: ivory;
+}
+
+@media(max-width: 1200px) {
+    .twocolumntext {
+        column-count: 1;
+    }
+    #spring {
+        clear: both;
+        width: 100%;
+    }
+    #flower {
+        clear: both;
+        width: 100%;
+    }
+    #frost {
+        clear: both;
+        width: 100%;
+    }
+}
